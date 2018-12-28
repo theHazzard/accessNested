@@ -14,7 +14,7 @@ function typeCheck(variable, type) {
     return varType.toLowerCase() === type.toLowerCase();
 }
 
-exports default function(container) {
+export default function(container) {
     if (!isArray(container) || !isObject(container)) {
         throw Error('Must be called only on a object or array');
     }
