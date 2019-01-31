@@ -1,5 +1,10 @@
 Access nested elements of a complex object, or return undefined if cannot continue
+no more
+```javascript
+  if (obj && obj.prop1 && ob.prop1.prop2 && obj.prop1.prop2.prop3 && obj.prop1.prop2.prop3[0]) {
 
+  }
+```
 
 ### USAGE
 ```javascript
